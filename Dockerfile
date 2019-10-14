@@ -7,7 +7,7 @@ FROM ubuntu:16.04
 LABEL maintainer="co.mohsen.docker.registry"
 
 # Set Version of Tools - Stable Version
-ENV NGINX_VERSION 1.15.12
+ENV NGINX_VERSION 1.16.1
 ENV NPS_VERSION 1.13.35.2
 ENV OPENSSL_VERSION 1.1.0g
 
