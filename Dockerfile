@@ -2,7 +2,7 @@
 #  MOHSEN MOTTAGHI |   nginx with speedpage     |  Feb  2019  #
 # ----------------------------------------------------------- #
 
-FROM ubuntu:18.04
+FROM ubuntu:19.04
 
 LABEL maintainer="co.mohsen.docker.registry"
 
