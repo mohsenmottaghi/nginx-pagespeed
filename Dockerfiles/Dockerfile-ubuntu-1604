@@ -2,7 +2,7 @@
 #  MOHSEN MOTTAGHI |   nginx with speedpage     |  Feb  2019  #
 # ----------------------------------------------------------- #
 
-FROM ubuntu:19.04
+FROM ubuntu:16.04
 
 LABEL maintainer="co.mohsen.docker.registry"
 
@@ -54,10 +54,10 @@ RUN sed -i -- "s/# deb-src/deb-src/g" /etc/apt/sources.list && \
     cd incubator-pagespeed-ngx-${NPS_VERSION}-stable/ && \
     wget -q https://dl.google.com/dl/page-speed/psol/${NPS_VERSION}-x64.tar.gz && \
     tar zxf ${NPS_VERSION}-x64.tar.gz && \
-    rm -rf ${NPS_VERSION}-x64.tar.gz && \
+    rm -rf ${NPS_VERSION}-x64.tar.gz 
 #
     # Compile Nginx
-     cd /usr/src/nginx-${NGINX_VERSION} && \
+RUN cd /usr/src/nginx-${NGINX_VERSION} && \
     ./configure \
     --prefix=/etc/nginx \
     --sbin-path=/usr/sbin/nginx \
@@ -125,7 +125,7 @@ RUN sed -i -- "s/# deb-src/deb-src/g" /etc/apt/sources.list && \
     && mkdir -p ${SSL_CERTS_DIR} \
 #
     # clean packages to reduce container size
-    && apt purge wget build-essential --auto-remove -y 
+    && apt purge wget build-essential --auto-remove -y
 
 # Forward requests and errors to docker logs
 RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
