@@ -18,7 +18,7 @@ This Docker image include Nginx , Pagespeed module and ...
 
 **Version:**
 
-* NGINX_VERSION 1.15.12
+* NGINX_VERSION 1.16.1
 * NPS_VERSION 1.13.35.2-stable
 * OPENSSL_VERSION 1.1.0g
 

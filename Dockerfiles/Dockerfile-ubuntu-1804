@@ -1,10 +1,10 @@
 # ----------------------------------------------------------- #
-#  MOHSEN MOTTAGHI |   nginx with speedpage     |  Feb  2019  #
+#  MOHSEN MOTTAGHI |   nginx with speedpage     |  Jan  2020  #
 # ----------------------------------------------------------- #
 
 FROM ubuntu:18.04
 
-LABEL maintainer="co.mohsen.docker.registry"
+LABEL maintainer="co.mohsen.docker"
 
 # Set Version of Tools - Stable Version
 ENV NGINX_VERSION 1.16.1
