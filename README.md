@@ -123,3 +123,13 @@ Below is current supported options.
 This image also provide some extra config to fast setup some popular Framework/CMS.
 
 - `WORDPRESS_ADDON` When set to `yes` will change config to add extra config to let `WordPress` work correctly.
+
+## GitHub Action Status
+![ubuntu-1904 Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/ubuntu-1904%20Docker%20Image%20CI/badge.svg)
+![debian-buster Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/debian-buster%20Docker%20Image%20CI/badge.svg)
+![debian-jessie Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/debian-jessie%20Docker%20Image%20CI/badge.svg)
+![debian-latest Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/debian-latest%20Docker%20Image%20CI/badge.svg)
+![debian-stretch Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/debian-stretch%20Docker%20Image%20CI/badge.svg)
+![ubuntu-1604 Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/ubuntu-1604%20Docker%20Image%20CI/badge.svg)
+![ubuntu-1804 Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/ubuntu-1804%20Docker%20Image%20CI/badge.svg)
+![ubuntu-1810 Docker Image CI](https://github.com/mohsenmottaghi/nginx-pagespeed/workflows/ubuntu-1810%20Docker%20Image%20CI/badge.svg)
