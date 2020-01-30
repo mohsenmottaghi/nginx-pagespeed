@@ -15,7 +15,7 @@ jobs:
       run: docker version
 
     - name: Build Docker image
-      run: docker build . --file Dockerfiles/Dockerfile-debian-latest --tag docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-debian-buster:latest
+      run: docker build . --file Dockerfiles/Dockerfile-debian-latest --tag docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-debian-latest:latest
 
     - name: Push Docker image
       run: |
