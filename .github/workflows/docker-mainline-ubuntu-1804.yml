@@ -15,7 +15,7 @@ jobs:
       run: docker version
 
     - name: Build Docker image
-      run: docker build . --file Dockerfiles-Mainline/Dockerfile-ubuntu-1804 --tag docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-mainline-ubuntu-1804:latest
+      run: docker build . --file Dockerfiles-mainline/Dockerfile-ubuntu-1804 --tag docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-mainline-ubuntu-1804:latest
 
     - name: Push Docker image
       run: |

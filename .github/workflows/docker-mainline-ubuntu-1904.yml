@@ -15,10 +15,10 @@ jobs:
       run: docker version
 
     - name: Build Docker image
-      run: docker build . --file Dockerfiles-Mainline/Dockerfile-ubuntu-1904 --tag docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-Mainline-ubuntu-1904:latest
+      run: docker build . --file Dockerfiles-mainline/Dockerfile-ubuntu-1904 --tag docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-mainline-ubuntu-1904:latest
 
     - name: Push Docker image
       run: |
         docker login docker.pkg.github.com --username mohsenmottaghi -p ${{ secrets.GITHUB_PACKAGES }}
-        docker push docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-Mainline-ubuntu-1904:latest
+        docker push docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-mainline-ubuntu-1904:latest
 
