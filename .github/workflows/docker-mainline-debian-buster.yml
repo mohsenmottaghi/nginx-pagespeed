@@ -1,4 +1,4 @@
-name: debian-buster Docker Image CI
+name: debian-buster-mainline Docker Image CI
 
 on: [push]
 

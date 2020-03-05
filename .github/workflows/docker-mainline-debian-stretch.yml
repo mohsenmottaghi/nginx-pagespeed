@@ -1,4 +1,4 @@
-name: debian-stretch Docker Image CI
+name: debian-stretch-mainline Docker Image CI
 
 on: [push]
 

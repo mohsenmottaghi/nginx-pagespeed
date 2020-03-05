@@ -1,4 +1,4 @@
-name: ubuntu-1810 Docker Image CI
+name: ubuntu-1810-mainline Docker Image CI
 
 on: [push]
 

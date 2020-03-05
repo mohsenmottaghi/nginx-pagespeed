@@ -1,4 +1,4 @@
-name: debian-latest Docker Image CI
+name: debian-latest-mainline Docker Image CI
 
 on: [push]
 

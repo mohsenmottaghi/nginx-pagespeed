@@ -1,4 +1,4 @@
-name: debian-jessie Docker Image CI
+name: debian-jessie-mainline Docker Image CI
 
 on: [push]
 
