@@ -14,13 +14,6 @@ jobs:
     - name: Docker check
       run: docker version
 
-    - name: FULL check
-      run: |
-        ls -lstah
-        pwd
-        apt update && apt install tree -y
-        tree
-
     - name: Build Docker image
       run: docker build . --file Dockerfiles-mainline-version/Dockerfile-ubuntu-1804 --tag docker.pkg.github.com/mohsenmottaghi/nginx-pagespeed/nginx-pagespeed-mainline-ubuntu-1804:latest
 
