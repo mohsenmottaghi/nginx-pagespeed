@@ -7,8 +7,8 @@ FROM ubuntu:19.04
 LABEL maintainer="co.mohsen.docker.registry"
 
 # Set Version of Tools - Stable Version
-ENV NGINX_VERSION 1.17.9
-ENV NPS_VERSION 1.13.35.2
+ENV NGINX_VERSION 1.19.2
+ENV NPS_VERSION 1.14.36.1
 ENV OPENSSL_VERSION 1.1.0g
 
 # Setup Environment
