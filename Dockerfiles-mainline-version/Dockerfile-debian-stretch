@@ -7,7 +7,7 @@ FROM debian:stretch
 LABEL maintainer="co.mohsen.docker"
 
 # Set Version of Tools - Stable Version
-ENV NGINX_VERSION 1.19.6
+ENV NGINX_VERSION 1.19.10
 ENV NPS_VERSION 1.14.36.1
 ENV OPENSSL_VERSION 1.1.0g
 
